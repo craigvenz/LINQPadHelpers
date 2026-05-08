@@ -1,0 +1,52 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQPadHelpers", "src\LINQPadHelpers\LINQPadHelpers.csproj", "{6295D840-160E-478E-851A-BE6DB8E66717}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{939F5DEC-7CD1-4237-BB01-18FB46AA9EEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{595AB243-4B69-47C6-A643-2DECBCEE0C51}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		azure-pipelines.yml = azure-pipelines.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External Dependencies", "External Dependencies", "{5ADA1F55-55CB-4768-B2E6-09ED0EBAD09E}"
+	ProjectSection(SolutionItems) = preProject
+		External Dependencies\LINQPad.Runtime.dll = External Dependencies\LINQPad.Runtime.dll
+		External Dependencies\SD.Tools.LinqToSQL2.dll = External Dependencies\SD.Tools.LinqToSQL2.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{63F07EA1-5382-47B3-B9F1-0E3B3C111B7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQPadHelpers.Tests", "tests\LINQPadHelpers.Tests\LINQPadHelpers.Tests.csproj", "{10C510B6-3269-4169-A09D-FDFE1D84731D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6295D840-160E-478E-851A-BE6DB8E66717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6295D840-160E-478E-851A-BE6DB8E66717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6295D840-160E-478E-851A-BE6DB8E66717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6295D840-160E-478E-851A-BE6DB8E66717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10C510B6-3269-4169-A09D-FDFE1D84731D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C510B6-3269-4169-A09D-FDFE1D84731D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C510B6-3269-4169-A09D-FDFE1D84731D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C510B6-3269-4169-A09D-FDFE1D84731D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6295D840-160E-478E-851A-BE6DB8E66717} = {939F5DEC-7CD1-4237-BB01-18FB46AA9EEE}
+		{10C510B6-3269-4169-A09D-FDFE1D84731D} = {63F07EA1-5382-47B3-B9F1-0E3B3C111B7C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {596B0D12-AC39-4028-ABB5-2B6156881914}
+	EndGlobalSection
+EndGlobal

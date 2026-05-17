@@ -10,13 +10,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{595AB243-4B69-47C6-A643-2DECBCEE0C51}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		azure-pipelines.yml = azure-pipelines.yml
 		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External Dependencies", "External Dependencies", "{5ADA1F55-55CB-4768-B2E6-09ED0EBAD09E}"
 	ProjectSection(SolutionItems) = preProject
-		External Dependencies\LINQPad.Runtime.dll = External Dependencies\LINQPad.Runtime.dll
 		External Dependencies\SD.Tools.LinqToSQL2.dll = External Dependencies\SD.Tools.LinqToSQL2.dll
 	EndProjectSection
 EndProject

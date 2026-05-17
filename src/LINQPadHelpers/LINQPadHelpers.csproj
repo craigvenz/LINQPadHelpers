@@ -6,8 +6,19 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PackageId>LINQPadHelpers</PackageId>
+    <Authors>CraigVenz</Authors>
+    <Description>Utility extensions, controls, logging, and Azure helpers for LINQPad scripts and queries.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/craigvenz/LINQPadHelpers</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/craigvenz/LINQPadHelpers</PackageProjectUrl>
+    <PackageTags>linqpad;extensions;utilities;helpers</PackageTags>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Azure.Identity" Version="1.11.4" />
     <PackageReference Include="Azure.Security.KeyVault.Secrets" Version="4.6.0" />
